@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74E2F1282F0D700E0077B7C4 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F0F72F0D700E0077B7C4 /* Achievement.swift */; };
+		74E2F1292F0D700E0077B7C4 /* Achievement+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F0F82F0D700E0077B7C4 /* Achievement+Extensions.swift */; };
+		74E2F12A2F0D700E0077B7C4 /* Ambience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F0F92F0D700E0077B7C4 /* Ambience.swift */; };
+		74E2F12B2F0D700E0077B7C4 /* FocusMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F0FA2F0D700E0077B7C4 /* FocusMode.swift */; };
+		74E2F12C2F0D700E0077B7C4 /* FocusSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F0FB2F0D700E0077B7C4 /* FocusSession.swift */; };
+		74E2F12D2F0D700E0077B7C4 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F0FC2F0D700E0077B7C4 /* Goal.swift */; };
+		74E2F12E2F0D700E0077B7C4 /* AchievementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F0FE2F0D700E0077B7C4 /* AchievementService.swift */; };
+		74E2F12F2F0D700E0077B7C4 /* DataServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F0FF2F0D700E0077B7C4 /* DataServiceProtocol.swift */; };
+		74E2F1302F0D700E0077B7C4 /* SwiftDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1002F0D700E0077B7C4 /* SwiftDataService.swift */; };
+		74E2F1312F0D700E0077B7C4 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1022F0D700E0077B7C4 /* AppColors.swift */; };
+		74E2F1322F0D700E0077B7C4 /* TimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1032F0D700E0077B7C4 /* TimeFormatter.swift */; };
+		74E2F1332F0D700E0077B7C4 /* AchievementsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1052F0D700E0077B7C4 /* AchievementsViewModel.swift */; };
+		74E2F1342F0D700E0077B7C4 /* AmbienceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1062F0D700E0077B7C4 /* AmbienceViewModel.swift */; };
+		74E2F1352F0D700E0077B7C4 /* FocusModesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1072F0D700E0077B7C4 /* FocusModesViewModel.swift */; };
+		74E2F1362F0D700E0077B7C4 /* FocusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1082F0D700E0077B7C4 /* FocusViewModel.swift */; };
+		74E2F1372F0D700E0077B7C4 /* GoalsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1092F0D700E0077B7C4 /* GoalsViewModel.swift */; };
+		74E2F1382F0D700E0077B7C4 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F10A2F0D700E0077B7C4 /* HistoryViewModel.swift */; };
+		74E2F1392F0D700E0077B7C4 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F10B2F0D700E0077B7C4 /* SettingsViewModel.swift */; };
+		74E2F13A2F0D700E0077B7C4 /* StatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F10C2F0D700E0077B7C4 /* StatisticsViewModel.swift */; };
+		74E2F13B2F0D700E0077B7C4 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F10E2F0D700E0077B7C4 /* CheckLink.swift */; };
+		74E2F13C2F0D700E0077B7C4 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F10F2F0D700E0077B7C4 /* InternetViewController.swift */; };
+		74E2F13D2F0D700E0077B7C4 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1102F0D700E0077B7C4 /* LoaderViewController.swift */; };
+		74E2F13E2F0D700E0077B7C4 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1122F0D700E0077B7C4 /* AchievementsView.swift */; };
+		74E2F13F2F0D700E0077B7C4 /* AmbienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1132F0D700E0077B7C4 /* AmbienceView.swift */; };
+		74E2F1402F0D700E0077B7C4 /* CelestialSystemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1142F0D700E0077B7C4 /* CelestialSystemView.swift */; };
+		74E2F1412F0D700E0077B7C4 /* FocusModesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1152F0D700E0077B7C4 /* FocusModesView.swift */; };
+		74E2F1422F0D700E0077B7C4 /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1162F0D700E0077B7C4 /* FocusView.swift */; };
+		74E2F1432F0D700E0077B7C4 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1172F0D700E0077B7C4 /* GoalsView.swift */; };
+		74E2F1442F0D700E0077B7C4 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1182F0D700E0077B7C4 /* HistoryView.swift */; };
+		74E2F1452F0D700E0077B7C4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1192F0D700E0077B7C4 /* OnboardingView.swift */; };
+		74E2F1462F0D700E0077B7C4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F11A2F0D700E0077B7C4 /* SettingsView.swift */; };
+		74E2F1472F0D700E0077B7C4 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F11B2F0D700E0077B7C4 /* StatisticsView.swift */; };
+		74E2F1482F0D700E0077B7C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F11D2F0D700E0077B7C4 /* AppDelegate.swift */; };
+		74E2F1492F0D700E0077B7C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F11F2F0D700E0077B7C4 /* ContentView.swift */; };
+		74E2F14A2F0D700E0077B7C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1252F0D700E0077B7C4 /* SceneDelegate.swift */; };
+		74E2F14B2F0D700E0077B7C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F1262F0D700E0077B7C4 /* ViewController.swift */; };
+		74E2F14C2F0D700E0077B7C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E2F11E2F0D700E0077B7C4 /* Assets.xcassets */; };
+		74E2F14E2F0D700E0077B7C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E2F1222F0D700E0077B7C4 /* LaunchScreen.storyboard */; };
+		74E2F14F2F0D700E0077B7C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E2F1242F0D700E0077B7C4 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4453B5F121C8F8DC2F09EC88 /* Pods-40CelestialFocus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-40CelestialFocus.debug.xcconfig"; path = "Target Support Files/Pods-40CelestialFocus/Pods-40CelestialFocus.debug.xcconfig"; sourceTree = "<group>"; };
+		727FEE11C6E0C9CF766EF14E /* Pods-40CelestialFocus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-40CelestialFocus.release.xcconfig"; path = "Target Support Files/Pods-40CelestialFocus/Pods-40CelestialFocus.release.xcconfig"; sourceTree = "<group>"; };
+		740A6F1A2F0BA70600C894CC /* 40CelestialFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 40CelestialFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E2F0F72F0D700E0077B7C4 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		74E2F0F82F0D700E0077B7C4 /* Achievement+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Achievement+Extensions.swift"; sourceTree = "<group>"; };
+		74E2F0F92F0D700E0077B7C4 /* Ambience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ambience.swift; sourceTree = "<group>"; };
+		74E2F0FA2F0D700E0077B7C4 /* FocusMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusMode.swift; sourceTree = "<group>"; };
+		74E2F0FB2F0D700E0077B7C4 /* FocusSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSession.swift; sourceTree = "<group>"; };
+		74E2F0FC2F0D700E0077B7C4 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		74E2F0FE2F0D700E0077B7C4 /* AchievementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementService.swift; sourceTree = "<group>"; };
+		74E2F0FF2F0D700E0077B7C4 /* DataServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceProtocol.swift; sourceTree = "<group>"; };
+		74E2F1002F0D700E0077B7C4 /* SwiftDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataService.swift; sourceTree = "<group>"; };
+		74E2F1022F0D700E0077B7C4 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		74E2F1032F0D700E0077B7C4 /* TimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatter.swift; sourceTree = "<group>"; };
+		74E2F1052F0D700E0077B7C4 /* AchievementsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsViewModel.swift; sourceTree = "<group>"; };
+		74E2F1062F0D700E0077B7C4 /* AmbienceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbienceViewModel.swift; sourceTree = "<group>"; };
+		74E2F1072F0D700E0077B7C4 /* FocusModesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusModesViewModel.swift; sourceTree = "<group>"; };
+		74E2F1082F0D700E0077B7C4 /* FocusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusViewModel.swift; sourceTree = "<group>"; };
+		74E2F1092F0D700E0077B7C4 /* GoalsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewModel.swift; sourceTree = "<group>"; };
+		74E2F10A2F0D700E0077B7C4 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		74E2F10B2F0D700E0077B7C4 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		74E2F10C2F0D700E0077B7C4 /* StatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewModel.swift; sourceTree = "<group>"; };
+		74E2F10E2F0D700E0077B7C4 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		74E2F10F2F0D700E0077B7C4 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		74E2F1102F0D700E0077B7C4 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		74E2F1122F0D700E0077B7C4 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		74E2F1132F0D700E0077B7C4 /* AmbienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbienceView.swift; sourceTree = "<group>"; };
+		74E2F1142F0D700E0077B7C4 /* CelestialSystemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelestialSystemView.swift; sourceTree = "<group>"; };
+		74E2F1152F0D700E0077B7C4 /* FocusModesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusModesView.swift; sourceTree = "<group>"; };
+		74E2F1162F0D700E0077B7C4 /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		74E2F1172F0D700E0077B7C4 /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		74E2F1182F0D700E0077B7C4 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		74E2F1192F0D700E0077B7C4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		74E2F11A2F0D700E0077B7C4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		74E2F11B2F0D700E0077B7C4 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		74E2F11D2F0D700E0077B7C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74E2F11E2F0D700E0077B7C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74E2F11F2F0D700E0077B7C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74E2F1202F0D700E0077B7C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E2F1212F0D700E0077B7C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74E2F1232F0D700E0077B7C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74E2F1252F0D700E0077B7C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74E2F1262F0D700E0077B7C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B831A3ABEEFC34F68273D433 /* Pods_40CelestialFocus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_40CelestialFocus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		740A6F172F0BA70600C894CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32A75CBFAFFCCA8836CAA5E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B831A3ABEEFC34F68273D433 /* Pods_40CelestialFocus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		740A6F112F0BA70600C894CC = {
+			isa = PBXGroup;
+			children = (
+				74E2F1272F0D700E0077B7C4 /* 40CelestialFocus */,
+				740A6F1B2F0BA70600C894CC /* Products */,
+				E7C1FAE9CF1EDA9EF635B18B /* Pods */,
+				32A75CBFAFFCCA8836CAA5E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		740A6F1B2F0BA70600C894CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				740A6F1A2F0BA70600C894CC /* 40CelestialFocus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74E2F0FD2F0D700E0077B7C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74E2F0F72F0D700E0077B7C4 /* Achievement.swift */,
+				74E2F0F82F0D700E0077B7C4 /* Achievement+Extensions.swift */,
+				74E2F0F92F0D700E0077B7C4 /* Ambience.swift */,
+				74E2F0FA2F0D700E0077B7C4 /* FocusMode.swift */,
+				74E2F0FB2F0D700E0077B7C4 /* FocusSession.swift */,
+				74E2F0FC2F0D700E0077B7C4 /* Goal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74E2F1012F0D700E0077B7C4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				74E2F0FE2F0D700E0077B7C4 /* AchievementService.swift */,
+				74E2F0FF2F0D700E0077B7C4 /* DataServiceProtocol.swift */,
+				74E2F1002F0D700E0077B7C4 /* SwiftDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		74E2F1042F0D700E0077B7C4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				74E2F1022F0D700E0077B7C4 /* AppColors.swift */,
+				74E2F1032F0D700E0077B7C4 /* TimeFormatter.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		74E2F10D2F0D700E0077B7C4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74E2F1052F0D700E0077B7C4 /* AchievementsViewModel.swift */,
+				74E2F1062F0D700E0077B7C4 /* AmbienceViewModel.swift */,
+				74E2F1072F0D700E0077B7C4 /* FocusModesViewModel.swift */,
+				74E2F1082F0D700E0077B7C4 /* FocusViewModel.swift */,
+				74E2F1092F0D700E0077B7C4 /* GoalsViewModel.swift */,
+				74E2F10A2F0D700E0077B7C4 /* HistoryViewModel.swift */,
+				74E2F10B2F0D700E0077B7C4 /* SettingsViewModel.swift */,
+				74E2F10C2F0D700E0077B7C4 /* StatisticsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74E2F1112F0D700E0077B7C4 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				74E2F10E2F0D700E0077B7C4 /* CheckLink.swift */,
+				74E2F10F2F0D700E0077B7C4 /* InternetViewController.swift */,
+				74E2F1102F0D700E0077B7C4 /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		74E2F11C2F0D700E0077B7C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74E2F1112F0D700E0077B7C4 /* LoadingView */,
+				74E2F1122F0D700E0077B7C4 /* AchievementsView.swift */,
+				74E2F1132F0D700E0077B7C4 /* AmbienceView.swift */,
+				74E2F1142F0D700E0077B7C4 /* CelestialSystemView.swift */,
+				74E2F1152F0D700E0077B7C4 /* FocusModesView.swift */,
+				74E2F1162F0D700E0077B7C4 /* FocusView.swift */,
+				74E2F1172F0D700E0077B7C4 /* GoalsView.swift */,
+				74E2F1182F0D700E0077B7C4 /* HistoryView.swift */,
+				74E2F1192F0D700E0077B7C4 /* OnboardingView.swift */,
+				74E2F11A2F0D700E0077B7C4 /* SettingsView.swift */,
+				74E2F11B2F0D700E0077B7C4 /* StatisticsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74E2F1272F0D700E0077B7C4 /* 40CelestialFocus */ = {
+			isa = PBXGroup;
+			children = (
+				74E2F0FD2F0D700E0077B7C4 /* Models */,
+				74E2F1012F0D700E0077B7C4 /* Services */,
+				74E2F1042F0D700E0077B7C4 /* Utils */,
+				74E2F10D2F0D700E0077B7C4 /* ViewModels */,
+				74E2F11C2F0D700E0077B7C4 /* Views */,
+				74E2F11D2F0D700E0077B7C4 /* AppDelegate.swift */,
+				74E2F11E2F0D700E0077B7C4 /* Assets.xcassets */,
+				74E2F11F2F0D700E0077B7C4 /* ContentView.swift */,
+				74E2F1202F0D700E0077B7C4 /* Info.plist */,
+				74E2F1222F0D700E0077B7C4 /* LaunchScreen.storyboard */,
+				74E2F1242F0D700E0077B7C4 /* Main.storyboard */,
+				74E2F1252F0D700E0077B7C4 /* SceneDelegate.swift */,
+				74E2F1262F0D700E0077B7C4 /* ViewController.swift */,
+			);
+			path = 40CelestialFocus;
+			sourceTree = "<group>";
+		};
+		E7C1FAE9CF1EDA9EF635B18B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4453B5F121C8F8DC2F09EC88 /* Pods-40CelestialFocus.debug.xcconfig */,
+				727FEE11C6E0C9CF766EF14E /* Pods-40CelestialFocus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		740A6F192F0BA70600C894CC /* 40CelestialFocus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740A6F2D2F0BA70600C894CC /* Build configuration list for PBXNativeTarget "40CelestialFocus" */;
+			buildPhases = (
+				5A52E223DD5CD9ED767FE4ED /* [CP] Check Pods Manifest.lock */,
+				740A6F162F0BA70600C894CC /* Sources */,
+				740A6F172F0BA70600C894CC /* Frameworks */,
+				740A6F182F0BA70600C894CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 40CelestialFocus;
+			productName = 40CelestialFocus;
+			productReference = 740A6F1A2F0BA70600C894CC /* 40CelestialFocus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		740A6F122F0BA70600C894CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					740A6F192F0BA70600C894CC = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = 740A6F152F0BA70600C894CC /* Build configuration list for PBXProject "40CelestialFocus" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 740A6F112F0BA70600C894CC;
+			productRefGroup = 740A6F1B2F0BA70600C894CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				740A6F192F0BA70600C894CC /* 40CelestialFocus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		740A6F182F0BA70600C894CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E2F14C2F0D700E0077B7C4 /* Assets.xcassets in Resources */,
+				74E2F14E2F0D700E0077B7C4 /* LaunchScreen.storyboard in Resources */,
+				74E2F14F2F0D700E0077B7C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A52E223DD5CD9ED767FE4ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-40CelestialFocus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		740A6F162F0BA70600C894CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E2F1282F0D700E0077B7C4 /* Achievement.swift in Sources */,
+				74E2F1292F0D700E0077B7C4 /* Achievement+Extensions.swift in Sources */,
+				74E2F12A2F0D700E0077B7C4 /* Ambience.swift in Sources */,
+				74E2F12B2F0D700E0077B7C4 /* FocusMode.swift in Sources */,
+				74E2F12C2F0D700E0077B7C4 /* FocusSession.swift in Sources */,
+				74E2F12D2F0D700E0077B7C4 /* Goal.swift in Sources */,
+				74E2F12E2F0D700E0077B7C4 /* AchievementService.swift in Sources */,
+				74E2F12F2F0D700E0077B7C4 /* DataServiceProtocol.swift in Sources */,
+				74E2F1302F0D700E0077B7C4 /* SwiftDataService.swift in Sources */,
+				74E2F1312F0D700E0077B7C4 /* AppColors.swift in Sources */,
+				74E2F1322F0D700E0077B7C4 /* TimeFormatter.swift in Sources */,
+				74E2F1332F0D700E0077B7C4 /* AchievementsViewModel.swift in Sources */,
+				74E2F1342F0D700E0077B7C4 /* AmbienceViewModel.swift in Sources */,
+				74E2F1352F0D700E0077B7C4 /* FocusModesViewModel.swift in Sources */,
+				74E2F1362F0D700E0077B7C4 /* FocusViewModel.swift in Sources */,
+				74E2F1372F0D700E0077B7C4 /* GoalsViewModel.swift in Sources */,
+				74E2F1382F0D700E0077B7C4 /* HistoryViewModel.swift in Sources */,
+				74E2F1392F0D700E0077B7C4 /* SettingsViewModel.swift in Sources */,
+				74E2F13A2F0D700E0077B7C4 /* StatisticsViewModel.swift in Sources */,
+				74E2F13B2F0D700E0077B7C4 /* CheckLink.swift in Sources */,
+				74E2F13C2F0D700E0077B7C4 /* InternetViewController.swift in Sources */,
+				74E2F13D2F0D700E0077B7C4 /* LoaderViewController.swift in Sources */,
+				74E2F13E2F0D700E0077B7C4 /* AchievementsView.swift in Sources */,
+				74E2F13F2F0D700E0077B7C4 /* AmbienceView.swift in Sources */,
+				74E2F1402F0D700E0077B7C4 /* CelestialSystemView.swift in Sources */,
+				74E2F1412F0D700E0077B7C4 /* FocusModesView.swift in Sources */,
+				74E2F1422F0D700E0077B7C4 /* FocusView.swift in Sources */,
+				74E2F1432F0D700E0077B7C4 /* GoalsView.swift in Sources */,
+				74E2F1442F0D700E0077B7C4 /* HistoryView.swift in Sources */,
+				74E2F1452F0D700E0077B7C4 /* OnboardingView.swift in Sources */,
+				74E2F1462F0D700E0077B7C4 /* SettingsView.swift in Sources */,
+				74E2F1472F0D700E0077B7C4 /* StatisticsView.swift in Sources */,
+				74E2F1482F0D700E0077B7C4 /* AppDelegate.swift in Sources */,
+				74E2F1492F0D700E0077B7C4 /* ContentView.swift in Sources */,
+				74E2F14A2F0D700E0077B7C4 /* SceneDelegate.swift in Sources */,
+				74E2F14B2F0D700E0077B7C4 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74E2F1222F0D700E0077B7C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E2F1212F0D700E0077B7C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		74E2F1242F0D700E0077B7C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E2F1232F0D700E0077B7C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		740A6F2E2F0BA70600C894CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4453B5F121C8F8DC2F09EC88 /* Pods-40CelestialFocus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 40CelestialFocus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "StarFocus: Celestial";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngu.st4rf0cc6l;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		740A6F2F2F0BA70600C894CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727FEE11C6E0C9CF766EF14E /* Pods-40CelestialFocus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 40CelestialFocus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "StarFocus: Celestial";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngu.st4rf0cc6l;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		740A6F302F0BA70600C894CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		740A6F312F0BA70600C894CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		740A6F152F0BA70600C894CC /* Build configuration list for PBXProject "40CelestialFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740A6F302F0BA70600C894CC /* Debug */,
+				740A6F312F0BA70600C894CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740A6F2D2F0BA70600C894CC /* Build configuration list for PBXNativeTarget "40CelestialFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740A6F2E2F0BA70600C894CC /* Debug */,
+				740A6F2F2F0BA70600C894CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 740A6F122F0BA70600C894CC /* Project object */;
+}
