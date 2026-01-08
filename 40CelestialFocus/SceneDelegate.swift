@@ -29,8 +29,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window.rootViewController = controller
         window.overrideUserInterfaceStyle = .dark // Force dark mode
         window.makeKeyAndVisible()
-        
-        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
